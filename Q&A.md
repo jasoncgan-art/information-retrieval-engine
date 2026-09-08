@@ -1,4 +1,4 @@
-## project summary
+## Project summary
 
 I built a small information-retrieval engine from scratch rather than relying on Elasticsearch or a vector database. I implemented text preprocessing, a positional inverted index, term-frequency ranking, and an evaluation harness with Precision/Recall, MAP, and NDCG. I used the Cranfield benchmark so I could quantify ranking quality, and I added an experiment to study the tradeoff between vocabulary pruning and retrieval effectiveness.
 
