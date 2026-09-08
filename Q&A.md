@@ -14,6 +14,6 @@ BM25. The current TF ranker is a deliberately simple baseline. BM25 adds documen
 
 RAG still needs a retrieval system. Dense embeddings are useful for semantic similarity, but lexical retrieval remains strong for exact entities, rare terms, numbers, and jargon. This project gives me a transparent lexical baseline that could be combined with dense retrieval in a hybrid system.
 
-## What did you learn?
+## Takeaways?
 
 The main lesson is that retrieval quality is not one number. Precision, recall, MAP, and NDCG reward different behavior. Ranking decisions should be tied to the product objective and evaluated at the cutoff users actually see.
